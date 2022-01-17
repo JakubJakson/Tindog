@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat'
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media screen and (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Styles */
+
+#features {
+  margin: 0;
+  padding: 7% 8%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+ padding: 0 20px 0;
+}
+
+.fa-check-circle, .fa-bullseye, .fa-heart  {
+  color: salmon;
+  transition: color 1s;
+}
+
+.fa-check-circle:hover,
+.fa-bullseye:hover,
+.fa-heart:hover  {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: salmon;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testi-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: salmon;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 10%;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 7% 15%;
+}
+
+.footimg {
+  padding: 3% 2%;
+}
